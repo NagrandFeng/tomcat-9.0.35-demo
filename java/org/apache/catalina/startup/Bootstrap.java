@@ -434,7 +434,7 @@ public final class Bootstrap {
      * @param args Command line arguments to be processed
      */
     public static void main(String args[]) {
-        System.out.println("tomcat 启动...");
+        System.out.println("my tomcat 启动...");
         synchronized (daemonLock) {
             if (daemon == null) {
                 // Don't set daemon until init() has completed
